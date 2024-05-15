@@ -1,12 +1,6 @@
 # React demo App
 
-This is a creat react app project.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
+This is a Vite React app project.
 
 ## Project structure
 
@@ -16,13 +10,17 @@ In the project directory, you can run:
 ├── src                     # Source Code
 	├── App.tsx             # Main App component
 	├── assets              # images, icons and etc...
-	├── components          # components folter
+	├── components          # components folder
+		├── ui 				# ui premitive components
 	├── hooks               # custom hooks
 	├── index.css           # main css file
 	├── index.tsx           # Root app script file
 	├── pages               # pages
-	├── services            
-	└── utils               # Reuseable helper methods
+	├── services            # third party services
+		├── api				# api config
+	├── types				# mention the types
+	└── utils               # reusable helper methods
+├── tailwind.config.js      # configure base theme
 ```
 
 ## Component Structure
@@ -30,7 +28,6 @@ In the project directory, you can run:
 ```
     MyComponent.tsx             #Component file
     myComponent.types.ts        #File for types & interfaces
-    myComponent.styled.ts       #File for styles
     myComponent.test.tsx        #File for tests
     index.ts                    #File for default export
 ```
