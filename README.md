@@ -18,7 +18,7 @@ This is a Vite React app project.
 	├── pages               # pages
 	├── services            # third party services
 		├── api		# api config
-	├── types				# mention the types
+	├── types		# mention the types
 	└── utils               # reusable helper methods
 ├── tailwind.config.js      # configure base theme
 ```
