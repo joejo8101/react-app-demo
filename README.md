@@ -11,13 +11,13 @@ This is a Vite React app project.
 	├── App.tsx             # Main App component
 	├── assets              # images, icons and etc...
 	├── components          # components folder
-		├── ui 				# ui premitive components
+		├── ui 			# ui premitive components
 	├── hooks               # custom hooks
 	├── index.css           # main css file
 	├── index.tsx           # Root app script file
 	├── pages               # pages
 	├── services            # third party services
-		├── api				# api config
+		├── api			# api config
 	├── types				# mention the types
 	└── utils               # reusable helper methods
 ├── tailwind.config.js      # configure base theme
