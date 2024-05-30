@@ -10,7 +10,6 @@
     "build:dev": "vite build --mode development",
     "build:staging": "vite build --mode staging",
     "build": "vite build",
-    "build:prod": "vite build --mode production",
     "preview": "vite preview",
     "lint": "eslint . --ext js,ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext js,ts,tsx --fix",
