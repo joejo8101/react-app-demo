@@ -1,8 +1,6 @@
-import reactLogo from './assets/react.svg'
-import './App.css'
+import reactLogo from './assets/react.svg';
 
-function App() {
-
+const App = (): JSX.Element => {
   return (
     <>
       <div>
@@ -13,12 +11,12 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <h3>
-        Check through the repository to analyze the folder structure to be followed.
+          Check through the repository to analyze the folder structure to be
+          followed.
         </h3>
       </div>
-      
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

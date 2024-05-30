@@ -1,1 +1,1 @@
-// ui premitives, buttons, input, select, forms etc. (smaller components that are used to create bigger reusable modals or pages.)
+// ui primitives, buttons, input, select, forms etc. (smaller components that are used to create bigger reusable modals or pages.)
